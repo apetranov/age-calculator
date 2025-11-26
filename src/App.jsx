@@ -40,15 +40,15 @@ function App() {
       <div className='flex flex-col space-y-2 md:space-y-0 md:flex-row space-x-5'>
         <div className='flex flex-col'>
           <label className='tracking-widest text-gray-400' htmlFor="">DAY</label>
-          <input onChange={(e) => setBirthDay(e.target.value)} className='outline-1 outline-gray-200 shadow-lg' value={birthDay} placeholder='Birth day' type="text" />
+          <input onChange={(e) => setBirthDay(e.target.value)} className='font-black outline-1 outline-gray-200 shadow-lg' value={birthDay} placeholder='DD' type="text" />
         </div>
         <div className='flex flex-col'>
           <label className='tracking-widest text-gray-400' htmlFor="">MONTH</label>
-          <input onChange={(e) => setBirthMonth(e.target.value)} className='outline-1 outline-gray-200 shadow-lg' value={birthMonth} placeholder='Birth month' type="text" />
+          <input onChange={(e) => setBirthMonth(e.target.value)} className='font-black outline-1 outline-gray-200 shadow-lg' value={birthMonth} placeholder='MM' type="text" />
         </div>
         <div className='flex flex-col'>
           <label className='tracking-widest text-gray-400' htmlFor="">YEAR</label>
-          <input onChange={(e) => setBirthYear(e.target.value)} className='outline-1 outline-gray-200 shadow-lg' value={birthYear} placeholder='Birth year' type="text" />
+          <input onChange={(e) => setBirthYear(e.target.value)} className='font-black outline-1 outline-gray-200 shadow-lg' value={birthYear} placeholder='YYYY' type="text" />
         </div>
       </div>
       <div onClick={handleYearsOld} className="bg-purple-700 rounded-full p-3 inline-flex items-center justify-center">
